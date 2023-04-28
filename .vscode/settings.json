@@ -1,0 +1,10 @@
+{
+  "editor.tabSize": 2,
+  "typescript.tsdk": "node_modules\\.pnpm\\typescript@5.0.2\\node_modules\\typescript\\lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "css.lint.unknownAtRules": "ignore",
+  // 没效果？在 vue 中是可用的
+  // "alias-skip.mappings": {
+  //   "@": "/src"
+  // },
+}

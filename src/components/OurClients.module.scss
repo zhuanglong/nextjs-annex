@@ -1,0 +1,8 @@
+.arrow-btn {
+  @apply flex h-[61px] w-[61px] items-center justify-center rounded-full bg-center bg-no-repeat;
+  background-color: #fff !important;
+}
+
+.arrow-btn--disabled {
+  background-color: #eee !important;
+}
