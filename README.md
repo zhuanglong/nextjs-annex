@@ -1,38 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <a href="#" target="blank">
+    <img src="https://gitee.com/zloooong/image_store/raw/master/img/logo.svg" alt="Logo" width="156">
+  </a>
 
-## Getting Started
+<p align="center">
+    基于 Next.js + TailwindCSS 开发的响应式网页
+  <br />
+  </p>
+</p>
 
-First, run the development server:
+## 运行
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
+```
+# clone
+git clone https://github.com/zhuanglong/nextjs-annex.git
+
+# 切换到项目
+cd nextjs-annex.git
+
+安装依赖
+# pnpm install
+
+# 运行
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 预览
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+https://nextjs-annex.vercel.app/
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+https://nextjs-annex.zeabur.app/
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## 截图
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**Mobile**
 
-## Learn More
+![](https://gitee.com/zloooong/image_store/raw/master/img/2023-04-28-09-46-05-image.png)
 
-To learn more about Next.js, take a look at the following resources:
+**Pad**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![](https://gitee.com/zloooong/image_store/raw/master/img/2023-04-28-09-46-32-image.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**PC**
 
-## Deploy on Vercel
+![](https://gitee.com/zloooong/image_store/raw/master/img/2023-04-28-09-47-03-image.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 设计稿
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+https://js.design/community?category=detail&type=resource&id=6296c6971b43ae8250770a41
+
+## 遇到的坑
+
+- [x] [热加载导致页面闪烁](https://github.com/vercel/next.js/issues/46510)
+  
+  解决：[升级到 v13.3.1](https://github.com/vercel/next.js/issues/46510#issuecomment-1518480811)。
+  
+
+## Todo
+
+- [ ] 滚动到顶部
+- [ ] 优化移动端的菜单栏
